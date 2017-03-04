@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="main.zhaocd.com.circleprogressview.MainActivity">
+
+    <main.zhaocd.com.circleprogressview.CircleProgressView
+        android:id="@+id/my_view"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        app:roundWidth="80dp"
+        app:roundColor="#7f8d9c"
+        app:roundProgressColor="#07ce7e"
+        app:textColor="#e21e17"
+        app:textSize="40dp"
+        />
+
+</RelativeLayout>

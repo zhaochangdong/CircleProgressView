@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/> <!-- 背景色-->
+        <attr name="roundProgressColor" format="color"/><!-- 进度条的颜色-->
+        <attr name="roundWidth" format="dimension"></attr><!-- 进度条的宽度-->
+        <attr name="textColor" format="color" /><!-- 字体的颜色-->
+        <attr name="textSize" format="dimension" /><!-- 字体的大小-->
+    </declare-styleable>
+</resources>
